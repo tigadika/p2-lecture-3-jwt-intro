@@ -1,9 +1,13 @@
-const { Movie } = require('../models');
+const { Movie, User } = require('../models');
 
 class Controller {
-  static getAllMovies(req, res) { }
+  static async login(req, res) { }
 
-  static getOneMovie(req, res) { }
+  static async register(req, res) { }
+
+  static async getAllMovies(req, res) { }
+
+  static async getOneMovie(req, res) { }
 
   static async postMovie(req, res) { }
 

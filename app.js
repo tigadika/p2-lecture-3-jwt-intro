@@ -4,6 +4,8 @@ const port = 3000
 const routes = require('./router');
 
 // code here
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
